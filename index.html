@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript, NodeJs">
+    <meta name="author" content="Will Richter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Richter</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/fae11ebf9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+</head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">William Richter</a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#about">About</a>
+                    <a class="nav-item nav-link active" href="#skills">Skills</a>
+                    <a class="nav-item nav-link active" href="#projects">Projects</a>
+                    <a class="nav-item nav-link active" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="center">
+            <section class="home" id="home">
+                <div class="home-text">
+                    <h1>Will Richter</h1>
+
+                    <hr>
+                
+                    <p>aspiring software engineer</p>
+
+                    <a class="white-anchor" href="https://github.com/WillRichter"><i class="fab fa-github fa-2x"></i></a>
+                    <a class="white-anchor" href="mailto:willrichter@hotmail.co.uk"><i class="fas fa-envelope fa-2x"></i></i></a>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <h2>Introductions</h2>
+                <p>Hi! I'm Will and I currently work full time as a Contract Estimator at an electrical contractors while
+                    studying a BSc (Hons) Computing and IT (Software) degree at The Open University in my spare time. I am working on 
+                    other courses and projects in my spare time as I am looking to switch over to a career as a Software Engineer in the future.</p>
+            </section>
+
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+
+                <p>Below are the skills that I have been using in my projects and solo work.</p>
+                <hr>
+                <div class="skills-container">
+                    <span class="skill">Java</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Android</span>                   
+                    <span class="skill">Node</span>
+                    <span class="skill">Express</span>
+                    <span class="skill">PostreSQL</span>
+                    <span class="skill">MongoDB</span>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+
+                <div class="blog-app">
+                    <div class="card box-shadow">
+                        <h5 class="card-header">Project #1</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Mini Blog Site</h5>
+                            <p class="card-text">
+                                A blog web app which allows users to create a post to display to the other users. Features include 
+                                authentication to allow the creation of accounts, log in/log out, a 'like' system, and commenting.  Data is saved 
+                                to a PostgreSQL database and hosted on the Heroku platform. 
+                            </p>
+                            <img class="img" src="/img/blogapp.jpg">
+                            <p>The below technologies were used to create the Blog App;</p>
+                            <div class="project-skills">
+                                <span class="project-skill">Node</span>
+                                <span class="project-skill">Express</span>
+                                <span class="project-skill">PostgreSQL</span>                                                            
+                                <span class="project-skill">Heroku</span>
+                            </div>
+                            <a href="https://mini-blog-site.herokuapp.com/" class="btn btn-blue">Go to live site</a>
+                            <a href="https://github.com/WillRichter/mini-blog-app" class="btn btn-blue">Github</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="book-app">
+                    <div class="card box-shadow">
+                        <h5 class="card-header">Project #2</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Leather Bound Reviews</h5>
+                            <p class="card-text">Web app allowing user to create an account and log in. Once logged in the are able to search for books via the name, author 
+                                or ISBN and will be taken to a page where results of the search will be found. Uses the GoodReads API to get information such as ratings for the books. 
+                                Website is hosted on Heroku. 
+                            </p>
+                            <img class="img" src="/img/lbr.jpg">
+                            <p>The below technologies were used to create Leather Bound Reviews;</p>
+                            <div class="project-skills">
+                                <span class="project-skill">Python</span>
+                                <span class="project-skill">Flask</span>
+                                <span class="project-skill">PostgreSQL</span>
+                                <span class="project-skill">Heroku</span>
+                            </div>
+                            <a href="http://leatherboundreviews.com" class="btn btn-blue">Go to live site</a>
+                            <a href="https://github.com/WillRichter/leather-bound-reviews" class="btn btn-blue">Github</a>
+                        </div>
+                      </div>
+                </div>
+
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact Me</h2>
+
+                <form action="/contact-me" method="POST">
+                    <input class="form-control" type="text" name="subject" placeholder="Subject">
+                    <textarea class="form-control" type="text" name="content" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-contact">Send Message</button>
+                </form>
+            </section>
+        
+            <nav class="navbar fixed-bottom justify-content-center">
+                <a class="navbar-brand footer-text" id="footer-content" href="#"></a>
+            </nav>
+
+        </div>
+
+        <script src="/js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html> 
