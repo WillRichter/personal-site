@@ -18,6 +18,10 @@ hr {
     background-color: white;
 }
 
+h2{
+    margin-bottom: 2%;
+}
+
 
 
 /* Styling for navbar */
@@ -74,7 +78,7 @@ hr {
 
 /* Styling for about section */
 .about{
-    padding: 5% 20%;
+    padding: 1% 15%;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     color :#162447 ;
 
@@ -84,7 +88,7 @@ hr {
 
 /* Styling for skills section */
 .skills {
-    padding: 1% 20%;
+    padding: 1% 15%;
     background-color: #162447;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     color: white;
@@ -95,7 +99,7 @@ hr {
         width: 10%;
         font-size: 1.5rem;
         padding: 1%;
-        margin: 2% ;
+        margin: 2% 3% ;
         text-align: center;
     }
 }
@@ -118,14 +122,14 @@ div.item {
 
 /* Styling for projects section */
 .projects {
-    padding: 3% 0 3% 0;
+    padding: 1% 0 3% 0;
     color: #162447;
 }
 
 .card{
     width: 80%;
     text-align: left;
-    margin: 0 auto 2%;
+    margin: 0 auto 3%;
 }
 
 .img{
